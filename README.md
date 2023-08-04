@@ -1,8 +1,8 @@
 # seed-db-script
 
 Step 1
-- create a csv folder
-- Add csv to the csv folder
+- Make csv folder
+- Add csv files to the csv folder
 
 Step 2
 - Add the environment variables to seedDb.py (Skip this step if you are not using the Events script)
