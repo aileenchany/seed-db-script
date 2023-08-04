@@ -92,7 +92,7 @@ for file in csv_files:
     # Connect to the SQLite database
     # Can use a different connector to connect to SQL dbs like psycopg2
     # If locally find database.db file relative to this seedDB.py file
-    conn = sqlite3.connect('../../GuildGamingFork/server/instance/database.db') # update this
+    conn = sqlite3.connect('../../server/instance/database.db') # update this
     cursor = conn.cursor()
 
     if tbl_name == "Articles":
