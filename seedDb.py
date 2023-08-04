@@ -290,3 +290,4 @@ for file in csv_files:
         print(f'Successfuly pushed data to {tbl_name} table')
         conn.commit()
         conn.close()
+        
